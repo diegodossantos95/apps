@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Margin — Privacy Policy</title>
+<meta name="description" content="Margin's privacy policy. What we collect, what we don't, and where your data goes.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="../">Apps</a>
+  <nav>
+    <a href="index.html">Margin</a>
+    <a href="support.html">Support</a>
+    <a href="terms.html">Terms</a>
+  </nav>
+</header>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective April 26, 2026</p>
+
+  <p class="lede">Margin is built to be private by default. This policy explains exactly what data leaves your device, why, and who can see it.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>Margin does <strong>not</strong> collect, store, or sell personal information about you.</li>
+    <li>Margin does <strong>not</strong> use analytics, advertising SDKs, or tracking.</li>
+    <li>Article URLs you summarize are sent to OpenAI for processing only at the moment you tap "Summarize."</li>
+    <li>Subscription status is handled by Apple and RevenueCat using an anonymous identifier.</li>
+    <li>Your summary library lives on your device. Your usage counter is stored privately in your iCloud account.</li>
+  </ul>
+
+  <h2>Who is the data controller?</h2>
+  <p>Margin is an independent app developed by Diego dos Santos ("we," "I"). For privacy questions, contact <a href="mailto:diego.dossantos@mightynetworks.com?subject=Margin%20Privacy">diego.dossantos@mightynetworks.com</a>.</p>
+
+  <h2>What information Margin processes</h2>
+
+  <h3>1. Article URLs and content (when you summarize)</h3>
+  <p>When you submit a link, Margin sends the URL and a summarization prompt to <strong>OpenAI</strong>'s API. OpenAI fetches and processes the article to produce a summary, which is returned to your device. According to <a href="https://openai.com/enterprise-privacy/">OpenAI's API data policy</a>, API inputs and outputs are <strong>not used to train OpenAI's models</strong> and are retained only as long as necessary to provide the service and comply with applicable law.</p>
+  <p>Margin does not maintain its own server and does not log or store article URLs or summary contents on any system controlled by us.</p>
+
+  <h3>2. Subscription and purchase information</h3>
+  <p>If you subscribe to Margin Basic or Margin Pro, the purchase is processed by <strong>Apple</strong>. Subscription state (active tier, expiration, renewal status) is mirrored to <strong>RevenueCat</strong>, which we use to verify entitlements. RevenueCat receives an anonymous app-generated user ID — not your name, email, or Apple ID. See <a href="https://www.revenuecat.com/privacy/">RevenueCat's privacy policy</a> and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> for details on how they handle this data.</p>
+
+  <h3>3. Usage counter (stored in your iCloud)</h3>
+  <p>To enforce the Free-tier lifetime quota and the Basic weekly quota, Margin stores a small counter in your private <strong>iCloud Key-Value Store</strong>. This data is owned by you, lives in your iCloud account, and is not visible to us. Specifically: a lifetime usage count, a weekly usage count, and the start of your current usage period.</p>
+
+  <h3>4. Your summary library</h3>
+  <p>Summaries you generate are saved locally on your device using SwiftData. They never leave your device and are not currently synced to iCloud. Uninstalling Margin deletes them.</p>
+
+  <h3>5. Diagnostics</h3>
+  <p>If you opt in via the system prompt, Apple may share anonymous crash and performance reports with the developer through App Store Connect. These reports do not include personal information. Margin does not run any third-party crash or analytics SDKs.</p>
+
+  <h2>What Margin does NOT collect</h2>
+  <ul>
+    <li>No name, email address, or account.</li>
+    <li>No location, contacts, photos, microphone, camera, or health data.</li>
+    <li>No advertising identifier (IDFA). Margin does not request App Tracking Transparency permission.</li>
+    <li>No third-party analytics or advertising SDKs.</li>
+  </ul>
+
+  <h2>Permissions Margin requests</h2>
+  <ul>
+    <li><strong>iCloud (Key-Value Store)</strong>: stores your usage counter so quotas survive reinstalls. Optional and managed by iOS.</li>
+    <li><strong>Network access</strong>: required to send article URLs to OpenAI and to verify subscriptions with Apple/RevenueCat.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Margin is not directed at children under 13 (or the equivalent minimum age in your jurisdiction) and does not knowingly process their personal information.</p>
+
+  <h2>International transfers</h2>
+  <p>OpenAI, Apple, and RevenueCat may process data on servers located in the United States or other countries. By using Margin you understand that these processors operate internationally.</p>
+
+  <h2>Your rights</h2>
+  <p>Because Margin does not store personal data on a server we control, most "access / deletion / export" requests are satisfied by uninstalling the app and managing your Apple subscription. To request deletion of any data held by our processors:</p>
+  <ul>
+    <li>OpenAI: see <a href="https://openai.com/policies/privacy-policy">OpenAI's privacy policy</a>.</li>
+    <li>Apple: see <a href="https://privacy.apple.com">privacy.apple.com</a>.</li>
+    <li>RevenueCat: see <a href="https://www.revenuecat.com/privacy/">RevenueCat's privacy policy</a>.</li>
+  </ul>
+  <p>If you have a question we haven't covered, email <a href="mailto:diego.dossantos@mightynetworks.com?subject=Margin%20Privacy">diego.dossantos@mightynetworks.com</a>.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we will update the "Effective" date at the top and, for material changes, surface a notice in-app before the change takes effect.</p>
+</main>
+<footer>
+  <a href="../">All apps</a>
+  <a href="support.html">Support</a>
+  <a href="terms.html">Terms</a>
+</footer>
+</body>
+</html>

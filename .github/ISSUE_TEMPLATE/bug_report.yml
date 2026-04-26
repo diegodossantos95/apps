@@ -1,0 +1,45 @@
+name: Bug report
+description: Something isn't working in Margin (or another app).
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app?
+      options:
+        - Margin
+        - Other (mention in description)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Find this in Settings inside the app.
+      placeholder: "1.0.0 (1)"
+  - type: input
+    id: device
+    attributes:
+      label: Device & iOS version
+      placeholder: "iPhone 15 Pro, iOS 18.5"
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app
+        2. Paste a link to ...
+        3. Tap Summarize
+        4. See error
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (screenshots, link, logs)
