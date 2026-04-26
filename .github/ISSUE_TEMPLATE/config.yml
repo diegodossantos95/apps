@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Email support (private)
-    url: mailto:diego.dossantos@mightynetworks.com?subject=Margin%20Support
-    about: For account, subscription, or billing questions you'd rather not post publicly.
   - name: Manage your Apple subscription
     url: https://apps.apple.com/account/subscriptions
     about: Cancel or change your Margin subscription.
